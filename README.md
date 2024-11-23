@@ -39,3 +39,8 @@ Something has gone seriously wrong: import_mok_state() failed: Not Found
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
+
+## Linux Mint Customization
+### Appearance
+- Start menu: CinnVIIStarkMenu Applet
+- Theme: https://www.cinnamon-look.org/p/2151806
