@@ -29,6 +29,8 @@ Something has gone seriously wrong: import_mok_state() failed: Not Found
 2. Create the SWAP partition (8192 MB, Primary, swap area)
 3. Create the ROOT partition (150000 MB, Primary, EXT4 Journaling File System, mount `/`)
 4. Create the HOME partition (Remaining MB, Primary, EXT4 Journaling File System, mount `/home`)
+5. Begin installation. Wait for completion. Select "Continue Testing" instead of restarting.
+6. Open Gparted. Name the new partitions for better organization.
 
 ## Installing NODE and NPM
 - Do NOT install from the software repository.
