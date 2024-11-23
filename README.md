@@ -1,4 +1,16 @@
 # Linux Mint Notes
+## Boot Error
+If you encounter the following error...
+```
+Failed to open \EFI\BOOT\mmx64.efi - Not Found
+Failed to load image ??: Not Found
+Failed to start MokManager: Not Found
+Something has gone seriously wrong: import_mok_state() failed: Not Found
+```
+1. Open the boot drive files
+2. Rename `\EFI\BOOT\grubx64.efi` to `mmx64.efi`
+3. Should work now.
+
 ## Partition the hard drive
 - Use Gparted to clear up free space.
 - If you cannot remove your previously created swap partition, right click it, select "noswap", then you can remove it.
