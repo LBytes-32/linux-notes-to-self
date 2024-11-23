@@ -41,6 +41,30 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
 
 ## Linux Mint Customization
-### Appearance
-- Start menu: CinnVIIStarkMenu Applet
-- Theme: https://www.cinnamon-look.org/p/2151806
+### General Settings
+1. Set `settings > windows > behavior > special key to move and resize windows` to super.
+
+### Horizontal OSD
+1. Download the "Horizontal OSD" extension
+2. Set "Width of OSD window" to 3
+3. Set height to 0.2
+4. Set "Size of level bar..." to 20
+5. Disable "Show label"
+
+### Start Menu
+1. Download the "CinnVIIStarkMenu" Applet
+2. Add the applet to the panel.
+3. Disable "autoscrolling in application list"
+4. Select "Use a custom icon and logo"
+5. Select "Use menu animations"
+6. Select "Use picture and user name"
+
+### Theme
+[VertexCinnamon98](https://www.cinnamon-look.org/p/2151806) is a lovely theme. How to install:
+1. Download and decompress the GZ file.
+2. Copy the folder to the `~/.themes` directory. If it doesn't exist, then create it.
+3. Select `Settings > Themes > Advanced > Desktop > VertexCinnamon98`.
+[Aero Cursor](https://www.cinnamon-look.org/p/999972) windows 7 mouse cursor.
+1. Download and decompress.
+2. Copy into the `~/.icons` directory. Create it if needed.
+3. Select the new cursor. Be aware the icon is incorrect, but is named "Aero".
