@@ -68,3 +68,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 1. Download and decompress.
 2. Copy into the `~/.icons` directory. Create it if needed.
 3. Select the new cursor. Be aware the icon is incorrect, but is named "Aero".
+#### Edit GTK Theme
+- go to `~/.themes/<theme>/gtk-3.0`
+- backup `gtk.css` as `gtk-BACKUP.css`
+- edit `gtk.css`
