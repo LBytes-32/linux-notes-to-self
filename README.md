@@ -72,3 +72,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 - go to `~/.themes/<theme>/gtk-3.0`
 - backup `gtk.css` as `gtk-BACKUP.css`
 - edit `gtk.css`
+
+### Flatpak Cursor Issue
+Flatpak applications may render the incorrect cursor. Follow these steps to resolve the issue. [Here is the reference post](https://www.reddit.com/r/linuxmint/comments/1hzk4br/cursor_themes_in_flatpak_fix/)
+1. Copy the cursor folder to `~/.local/share/icons/`. (A copy will suffice. If the cursor files are already installed elsewhere, you may leave them be.)
+2. Get the name of the cursor theme from `index.theme`.
+3. Create the file `~/.Xresources` and append the contents `Xcursor.theme: <cursor name>`.
+4. Run `xrdb -load ~/.Xresources` in the terminal.
+5. Restart the flatpak application.
